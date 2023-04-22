@@ -22,7 +22,7 @@ const Header = () => {
     }
   return ( <>
      <ColorModeSwicther/>
-     <Button onClick={onOpen} rounded={'full'} colorScheme='yellow' width={'10'}>
+     <Button onClick={onOpen} rounded={'3xl'} colorScheme='yellow' width={'13'}>
         <RiMenu5Fill/>
      </Button>
      <Drawer placement="left" onClose={onClose} isOpen={isOpen}>

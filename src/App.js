@@ -10,6 +10,7 @@ import ForgetPassword from './components/Auth/ForgetPassword';
 import ResetPassword from './components/Auth/ResetPassword';
 import Contact from './components/Contact/Contact';
 import Request from './components/Request/Request';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Register' element={<Register/>}/>
         <Route path='/ForgetPassword' element={<ForgetPassword/>}/>
         <Route path='/Contact' element={<Contact/>}/>
+        <Route path='/About' element={<About/>}/>
         <Route path='/Request' element={<Request/>}/>
         <Route path='/ResetPassword/:token' element={<ResetPassword/>}/>
       </Routes>

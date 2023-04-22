@@ -3,7 +3,7 @@ import { Button } from '@chakra-ui/react';
 import React from 'react'
 import ColorModeSwicther from "../../../ColorModeSwitcher"
 import {RiDashboardFill, RiDashboardLine, RiLogoutBoxFill, RiLogoutBoxLine, RiMenu5Fill} from 'react-icons/ri';
-import { Link } from '@chakra-ui/react'
+import { Link } from 'react-router-dom'
 import { CgGhost } from 'react-icons/cg';
 const LinkButton = ({url="/" , title='Home',onClose}) =>(
     <Link onClick={onClose} to={url}>
@@ -65,11 +65,11 @@ const Header = () => {
                             ):
                             (
                             <>
-                        <Link onClick={onClose} to="/login">
+                        <Link onClick={onClose} to="/Login">
                             <Button colorScheme='yellow'>Login</Button>
                             </Link>
                             <p>OR</p>
-                            <Link onClick={onClose} to="/register">
+                            <Link onClick={onClose} to="/Register">
                             <Button colorScheme='yellow'>Sign Up</Button>
                             </Link>
                         </>

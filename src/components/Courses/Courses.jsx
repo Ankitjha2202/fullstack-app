@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import { Text } from '@chakra-ui/react';
 import { Image } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
+// import { CoursePage  from '../CoursePage/CoursePage';
 const Course = ({views,title,imageSrc,id,addtoPlaylistHandler,creator,description,lectureCount}) =>{
     return (
     <VStack className='course' alignItems={["center","flex-start"]}>

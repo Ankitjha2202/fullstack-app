@@ -11,14 +11,19 @@ import ResetPassword from './components/Auth/ResetPassword';
 import Contact from './components/Contact/Contact';
 import Request from './components/Request/Request';
 import About from './components/About/About';
+import  CoursePage  from './components/CoursePage/CoursePage';
 
 function App() {
+  window.addEventListener('contextmenu',(e)=>{
+    e.preventDefault();
+  });
   return (
     <Router>
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/courses' element={<Courses/>}/>
+        <Route path='/course/:id' element={<CoursePage/>}/>
         <Route path='/Login' element={<Login/>}/>
         <Route path='/Register' element={<Register/>}/>
         <Route path='/ForgetPassword' element={<ForgetPassword/>}/>

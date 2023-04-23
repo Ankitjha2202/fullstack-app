@@ -12,6 +12,10 @@ import Contact from './components/Contact/Contact';
 import Request from './components/Request/Request';
 import About from './components/About/About';
 import  CoursePage  from './components/CoursePage/CoursePage';
+import Subscribe from './components/Payments/Subscribe';
+import PaymentSuccess from './components/Payments/PaymentSuccess';
+import NotFound from './components/Layout/NotFound/NotFound';
+import PaymentFail from './components/Payments/PaymentFail';
 
 function App() {
   window.addEventListener('contextmenu',(e)=>{
@@ -31,6 +35,10 @@ function App() {
         <Route path='/About' element={<About/>}/>
         <Route path='/Request' element={<Request/>}/>
         <Route path='/ResetPassword/:token' element={<ResetPassword/>}/>
+        <Route path='/subscribe' element={<Subscribe/>}/>
+        <Route path='/paymentsuccessfull' element={<PaymentSuccess/>}/>
+        <Route path='*' element={<NotFound/>}/>
+        <Route path='/paymentfail' element={<PaymentFail/>}/>
       </Routes>
       <Footer/>
      </Router>

@@ -29,8 +29,8 @@ const Register = () => {
     <VStack h={"full"} justifycontent="center" spacing={'16'}>
         <Heading textTransform={'uppercase'} children="Registration"/>
         <form style={{width:"100%"}}>
-            <Box size='2xl' my="4" display={'flex'} justifyContent={'center'}>
-                <Avatar src='imagePrev' size={'sm'}/>
+            <Box my={'4'} display={'flex'} justifyContent={'center'}>
+                <Avatar src={imagePrev} size={'lg'}/>
             </Box>
         <Box my="4">
            <FormLabel 
@@ -75,7 +75,7 @@ const Register = () => {
            children="Choose Avatar"
            />
            <Input required 
-           accept='/image*'
+           accept='image/*'
            id="chooseAvatar" 
            focusBorderColor="yellow"
            type={'file'}

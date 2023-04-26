@@ -35,6 +35,7 @@ const Bar =({title,value,profit})=>(
     </Box>
 )
 
+
 const Dashboard = () => {
   return (
     <Grid

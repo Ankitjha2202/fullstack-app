@@ -19,6 +19,13 @@ Welcome to our Course Website, a platform where users can browse courses, reques
 - View Contacts: Users can view the contact information for the instructors of each course.
 - Color Mode Switcher: Users can switch between light and dark mode to suit their preferences.
 
+## Technologies Used
+
+- ReactJS
+- React Library: Chakra UI
+- HTML CSS JavaScript
+- React Router DOM
+
 ## Installation
 To use Course Website locally, follow these steps:
 
@@ -42,4 +49,14 @@ To use Course Website, follow these steps:
 6. Explore different courses by clicking on the "Explore Courses" button.
 7. View the contact information for the instructors of each course by clicking on the "View Contacts" button.
 8. Switch between light and dark mode by clicking on the "Color Mode Switcher" button.
+
+## Future Plans
+
+Our future plans for the project include:
+
+- Adding a backend using Node.js and MongoDB to make it a full MERN project
+- Implementing authentication and authorization
+- Improving the user interface
+- Optimizing performance
+- Deploying the project to a live server
 

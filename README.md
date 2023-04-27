@@ -3,6 +3,9 @@
 ![alt text](https://i.postimg.cc/Y25ysRSv/frontend.jpg)
 ![alt text](https://i.postimg.cc/SsTb9MLW/frontend1.jpg)
 ![alt text](https://i.postimg.cc/sX2t32F1/Whats-App-Image-2023-04-27-at-10-37-41.jpg)
+![alt text](https://i.postimg.cc/XqXFmQWp/Whats-App-Image-2023-04-27-at-21-00-33.jpg)
+![alt text](https://i.postimg.cc/xdwMhKCR/contact.jpg)
+![alt text](https://i.postimg.cc/cCyqv5Jn/Whats-App-Image-2023-04-27-at-21-11-51.jpg)
 
 Welcome to our Course Website, a platform where users can browse courses, request new courses, watch lectures, explore courses, view contacts, and more!, This is only the frontend which is built using ReactJS and it will become a MERN project soon.
 

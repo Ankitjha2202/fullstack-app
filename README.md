@@ -40,4 +40,3 @@ To use Course Website, follow these steps:
 7. View the contact information for the instructors of each course by clicking on the "View Contacts" button.
 8. Switch between light and dark mode by clicking on the "Color Mode Switcher" button.
 
-#### If you have any questions or suggestions, feel free to reach out to me via email at [ankitjhabst@gmail.com](mailto:ankitjhabst@gmail.com) or through [Linkedin](https://www.linkedin.com/in/ankit-jha-7ab508203/).
